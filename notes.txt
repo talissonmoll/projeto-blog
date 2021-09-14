@@ -1,0 +1,27 @@
+RESOLUCAO DA TELA
+=================
+
+
+LXA
+640x480
+800x600 => (MAX 768px)
+1024x768 => (MAX 998px)
+1280x720 => (MAX 1200px)
+1280x1024 => (MAX 1200px)
+
+
+TODO ELEMENTO DE BLOCO ELE ACEITA DIMENSÕES 
+DE ALTURA E LARGURA
+
+BEM - Block Element Modifier 
+
+.block {}
+.block__element {}
+.block__element--modifier {}
+
+<ul class="tabs">
+  <li class="tabs__item"><a href="#">Tab 1</a></li>
+  <li class="tabs__item"><a href="#">Tab 2</a></li>
+  <li class="tabs__item--active"><a href="#">Tab 3</a></li>
+  <li class="tabs__item"><a href="#">Tab 4</a></li>
+</ul>

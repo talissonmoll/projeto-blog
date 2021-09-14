@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; /*16px ou (100% ou 1em) mais usual */
+    line-height: 1.5; /* ^^ calculado com base no tamanho da fonte declarado */
+}
+
+
+.site-container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* css image replace:  Display block transformou a em bloco 
+assim deixando de ser linha para funcionar altura e largura 
+fazendo funcionar o text indent
+*/
+
+.site-header h1{
+    background-color: silver;
+}
+
+.site-header h1 a{
+    
+    width: 136px;
+    height: 88px;
+    background-image: url(../images/ford-logo.webp);
+    background-repeat: no-repeat;
+    background-position: left 5px top 5px; 
+    background-size: 200%;
+    /*font-size: 0px;*/
+    text-indent: -9000px;
+    display: block;
+    
+    
+}
+
+.site-header nav ul li{
+    height: auto;
+    text-align: center;
+    width: 200px;
+    display: block;
+    float: left;
+    line-height: 2.5;
+    
+    line-height: 2;
+    text-decoration: none;
+    
+}
+
+.site-header nav ul li:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.site-header nav ul li a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.site-main {
+    height: auto;
+    width: 1200px;
+    background-color: darkgreen;
+    
+}
+
+.highlight {
+    position: relative;
+}
+
+.highlight__image {
+    display: block;
+}
+
+.highlight__title {
+    background-color: black;
+    color: white;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.site-main section {
+    min-height: 500px;
+    display: block;
+    float: left;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+section[role=posts] {
+    background-color: teal;
+    width: 950px;
+    
+}
+
+section[role=sidebar] {
+    background-color: blue;
+    width: 250px;
+}
+
+
+.site-footer {
+    height: 150px;
+    background-color: tomato;
+    
+}
+
